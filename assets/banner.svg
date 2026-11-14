@@ -37,7 +37,7 @@
     </filter>
   </defs>
 
-  <style>
+  <style><![CDATA[
     .title {
       font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
       font-weight: 800;
@@ -58,7 +58,7 @@
       font-size: 13px;
       fill: #e2e8f0;
     }
-    /* Dynamic floating particles & waves in background */
+    /* Dynamic floating particles and waves in background */
     @keyframes floatParticle {
       0% { transform: translateY(0px) translateX(0px); opacity: 0.3; }
       50% { transform: translateY(-25px) translateX(15px); opacity: 0.8; }
@@ -86,7 +86,7 @@
       stroke-dasharray: 20 10;
       animation: flowLine 20s linear infinite;
     }
-  </style>
+  ]]></style>
 
   <!-- Deep Canvas Background -->
   <rect width="1200" height="360" fill="url(#bgGrad)" />
@@ -114,7 +114,7 @@
     <circle class="particle-1" cx="1050" cy="220" r="2" fill="#818cf8" />
   </g>
 
-  <!-- Key & Shield Security Icon Graphic (Centered above title) -->
+  <!-- Key and Shield Security Icon Graphic (Centered above title) -->
   <g transform="translate(600, 72) scale(0.9)" filter="url(#subtleGlow)">
     <g transform="translate(-32, -32)">
       <!-- Shield Shape -->
@@ -126,7 +126,7 @@
     </g>
   </g>
 
-  <!-- FOREGROUND: Main Title & Subtitle (Clear, readable, high contrast) -->
+  <!-- FOREGROUND: Main Title and Subtitle (Clear, readable, high contrast) -->
   <text class="title" x="600" y="165" text-anchor="middle">
     Awesome QA Identity &amp; Access Management (IAM)
   </text>
@@ -140,22 +140,22 @@
     <!-- Pill 1: SSO -->
     <g transform="translate(-310, 0)">
       <rect x="0" y="0" width="135" height="32" rx="16" fill="#1e293b" stroke="#38bdf8" stroke-width="1.2" opacity="0.9" />
-      <text class="badge-text" x="67" y="21" text-anchor="middle">🔐 SSO &amp; SAML</text>
+      <text class="badge-text" x="67" y="21" text-anchor="middle">SSO &amp; SAML</text>
     </g>
     <!-- Pill 2: SCIM 2.0 -->
     <g transform="translate(-160, 0)">
       <rect x="0" y="0" width="145" height="32" rx="16" fill="#1e293b" stroke="#818cf8" stroke-width="1.2" opacity="0.9" />
-      <text class="badge-text" x="72" y="21" text-anchor="middle">🔄 SCIM Provisioning</text>
+      <text class="badge-text" x="72" y="21" text-anchor="middle">SCIM Provisioning</text>
     </g>
-    <!-- Pill 3: RBAC & ABAC -->
+    <!-- Pill 3: RBAC and ABAC -->
     <g transform="translate(0, 0)">
       <rect x="0" y="0" width="145" height="32" rx="16" fill="#1e293b" stroke="#a855f7" stroke-width="1.2" opacity="0.9" />
-      <text class="badge-text" x="72" y="21" text-anchor="middle">🛡️ RBAC / ABAC</text>
+      <text class="badge-text" x="72" y="21" text-anchor="middle">RBAC / ABAC</text>
     </g>
-    <!-- Pill 4: Open Source & SaaS -->
+    <!-- Pill 4: Open Source and SaaS -->
     <g transform="translate(160, 0)">
       <rect x="0" y="0" width="150" height="32" rx="16" fill="#1e293b" stroke="#38bdf8" stroke-width="1.2" opacity="0.9" />
-      <text class="badge-text" x="75" y="21" text-anchor="middle">⚡ Open-Source &amp; Cloud</text>
+      <text class="badge-text" x="75" y="21" text-anchor="middle">Open-Source &amp; Cloud</text>
     </g>
   </g>
 
